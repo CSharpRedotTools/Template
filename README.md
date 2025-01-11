@@ -15,6 +15,8 @@
 
 If you are not using Windows you may need to get a [Custom ENet build](https://github.com/ValksGodotTools/Template/wiki/Custom-ENet-Builds)
 
+[Link to FAQ](https://github.com/CSharpRedotTools/Template/wiki/FAQ)  
+
 ![image](https://github.com/user-attachments/assets/50911653-2c81-4887-b51a-06923cc801d3)
 
 ## Features
