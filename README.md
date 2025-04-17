@@ -1,11 +1,11 @@
-![github_banner](https://github.com/user-attachments/assets/bbff58a6-27ca-4f67-8f02-a8cd278fe8ec)
+![github_banner](https://github.com/user-attachments/assets/46eb7938-3a35-4fd0-a7fd-4c045696ee6a)
 
-[![GitHub stars](https://img.shields.io/github/stars/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=9b59b6)](https://github.com/ValksGodotTools/Template/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=9b59b6)](https://github.com/ValksGodotTools/Template/network)
-[![License](https://img.shields.io/github/license/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=9b59b6)](https://github.com/ValksGodotTools/Template/blob/main/LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=9b59b6)](https://github.com/ValksGodotTools/Template/commits/main)
-[![Contributors](https://img.shields.io/github/contributors/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=9b59b6)](https://github.com/ValksGodotTools/Template/graphs/contributors)
-[![GitHub watchers](https://img.shields.io/github/watchers/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=9b59b6)](https://github.com/ValksGodotTools/Template/watchers)
+[![GitHub stars](https://img.shields.io/github/stars/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=3399FF)](https://github.com/ValksGodotTools/Template/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=3399FF)](https://github.com/ValksGodotTools/Template/network)
+[![License](https://img.shields.io/github/license/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=3399FF)](https://github.com/ValksGodotTools/Template/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=3399FF)](https://github.com/ValksGodotTools/Template/commits/main)
+[![Contributors](https://img.shields.io/github/contributors/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=3399FF)](https://github.com/ValksGodotTools/Template/graphs/contributors)
+[![GitHub watchers](https://img.shields.io/github/watchers/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=3399FF)](https://github.com/ValksGodotTools/Template/watchers)
 
 ## Setup
 1. Ensure your [.NET SDK](https://dotnet.microsoft.com/download) is at least `8.0.400`. Check with `dotnet --version`. 
