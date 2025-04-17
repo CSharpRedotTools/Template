@@ -1,5 +1,5 @@
 using Godot;
-using RedotUtils;
+using GodotUtils;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.IO;
@@ -198,7 +198,7 @@ public class Logger
     {
         //Console.ForegroundColor = color;
 
-        if (ROS.IsExportedRelease())
+        if (GOS.IsExportedRelease())
         {
             GD.Print(v);
         }

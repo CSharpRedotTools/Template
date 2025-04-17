@@ -1,5 +1,5 @@
 using Godot;
-using RedotUtils;
+using GodotUtils;
 
 namespace Template.TopDown2D;
 
@@ -34,7 +34,7 @@ public partial class EntityComponent : Node2D
         float currentIntensity = 1.0f;
 
         // Create a sequence of tweens to simulate the strobe light effect
-        RShaderTween tween = new(node);
+        GShaderTween tween = new(node);
 
         for (int i = 0; i < 4; i++) // Adjust the number of flashes as needed
         {

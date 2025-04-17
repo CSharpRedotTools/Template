@@ -1,12 +1,12 @@
 using Godot;
-using RedotUtils;
+using GodotUtils;
 
 namespace Template;
 
 public partial class AudioManager : Node
 {
     [Export] private OptionsManager _optionsManager;
-    private static RAudioPlayer _musicPlayer;
+    private static GAudioPlayer _musicPlayer;
     private static Node _sfxPlayersParent;
     private static float _lastPitch;
     private static ResourceOptions _options;
@@ -14,7 +14,7 @@ public partial class AudioManager : Node
     public override void _Ready()
     {
         _options = _optionsManager.Options;
-        _musicPlayer = new RAudioPlayer(this);
+        _musicPlayer = new GAudioPlayer(this);
 
         _sfxPlayersParent = new Node();
         AddChild(_sfxPlayersParent);
@@ -56,7 +56,7 @@ public partial class AudioManager : Node
     public static void PlaySFX(AudioStream sound)
     {
         // Setup the SFX stream player
-        RAudioPlayer sfxPlayer = new(_sfxPlayersParent, true)
+        GAudioPlayer sfxPlayer = new(_sfxPlayersParent, true)
         {
             Stream = sound,
             Volume = _options.SFXVolume

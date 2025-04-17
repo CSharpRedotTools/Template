@@ -1,5 +1,5 @@
 ﻿using Godot;
-using RedotUtils;
+using GodotUtils;
 
 namespace Template;
 
@@ -9,14 +9,14 @@ public static partial class VisualControlTypes
     {
         Color initialColor = (Color)context.InitialValue;
 
-        RColorPickerButton colorPickerButton = new(initialColor);
+        GColorPickerButton colorPickerButton = new(initialColor);
         colorPickerButton.OnColorChanged += color => context.ValueChanged(color);
 
         return new VisualControlInfo(new ColorPickerButtonControl(colorPickerButton));
     }
 }
 
-public class ColorPickerButtonControl(RColorPickerButton colorPickerButton) : IVisualControl
+public class ColorPickerButtonControl(GColorPickerButton colorPickerButton) : IVisualControl
 {
     public void SetValue(object value)
     {

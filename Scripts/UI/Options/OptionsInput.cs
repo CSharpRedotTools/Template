@@ -1,5 +1,5 @@
 using Godot;
-using RedotUtils;
+using GodotUtils;
 using System;
 using System.Linq;
 using Godot.Collections;
@@ -131,7 +131,7 @@ public partial class OptionsInput : Control
         _btnNewInput = null;
     }
 
-    private static RButton CreateButton(string action, InputEvent inputEvent, HBoxContainer hbox)
+    private static GButton CreateButton(string action, InputEvent inputEvent, HBoxContainer hbox)
     {
         string readable = "";
 
@@ -145,7 +145,7 @@ public partial class OptionsInput : Control
         }
 
         // Create the button
-        RButton btn = new(readable);
+        GButton btn = new(readable);
         btn.Pressed += () =>
         {
             // Do not do anything if listening for new input
@@ -177,7 +177,7 @@ public partial class OptionsInput : Control
     private static void CreateButtonPlus(string action, HBoxContainer hbox)
     {
         // Create the button
-        RButton btn = new("+");
+        GButton btn = new("+");
         btn.Pressed += () =>
         {
             // Do not do anything if listening for new input
@@ -232,7 +232,7 @@ public partial class OptionsInput : Control
             string name = action.ToString().ToUpper();
 
             // Add the action label. For example 'UI Left'
-            hbox.AddChild(new RLabel(name)
+            hbox.AddChild(new GLabel(name)
             {
                 HorizontalAlignment = HorizontalAlignment.Left,
                 CustomMinimumSize = new Vector2(200, 0)

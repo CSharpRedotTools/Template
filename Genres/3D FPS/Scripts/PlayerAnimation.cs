@@ -1,5 +1,5 @@
 using Godot;
-using RedotUtils;
+using GodotUtils;
 using System.Collections.Generic;
 
 namespace Template.FPS3D;

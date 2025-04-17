@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Threading.Tasks;
 using System.Threading;
 using static Godot.Control;
-using RedotUtils;
+using GodotUtils;
 
 namespace Template;
 

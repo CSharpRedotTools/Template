@@ -1,5 +1,5 @@
 using Godot;
-using RedotUtils;
+using GodotUtils;
 
 namespace Template.UI;
 
@@ -61,13 +61,13 @@ public partial class Credits : Node
             {
                 if (string.IsNullOrWhiteSpace(translatedLine))
                 {
-                    Control control = new RPadding(0, 10);
+                    Control control = new GPadding(0, 10);
                     control.MouseFilter = Control.MouseFilterEnum.Ignore;
                     _vbox.AddChild(control);
                 }
                 else
                 {
-                    Control control = new RLabel(translatedLine, size);
+                    Control control = new GLabel(translatedLine, size);
                     control.MouseFilter = Control.MouseFilterEnum.Ignore;
                     _vbox.AddChild(control);
                 }
@@ -128,8 +128,8 @@ public partial class Credits : Node
             SizeFlagsHorizontal = Control.SizeFlags.ShrinkCenter
         };
 
-        RLabel labelText = new(textDesc);
-        RLinkButton btnLink = new(textLink);
+        GLabel labelText = new(textDesc);
+        GLinkButton btnLink = new(textLink);
 
         hbox.AddChild(labelText);
         hbox.AddChild(btnLink);

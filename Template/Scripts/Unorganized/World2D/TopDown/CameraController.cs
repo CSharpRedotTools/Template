@@ -1,5 +1,5 @@
 using Godot;
-using RedotUtils;
+using GodotUtils;
 
 namespace Template.Unorganized.Topdown;
 
@@ -53,22 +53,22 @@ public partial class CameraController : Node
         // Arrow keys and WASD move camera around
         Vector2 dir = Vector2.Zero;
 
-        if (RInput.IsMovingLeft())
+        if (GInput.IsMovingLeft())
         {
             dir.X -= 1;
         }
 
-        if (RInput.IsMovingRight())
+        if (GInput.IsMovingRight())
         {
             dir.X += 1;
         }
 
-        if (RInput.IsMovingUp())
+        if (GInput.IsMovingUp())
         {
             dir.Y -= 1;
         }
 
-        if (RInput.IsMovingDown())
+        if (GInput.IsMovingDown())
         {
             dir.Y += 1;
         }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using Godot;
-using RedotUtils;
+using GodotUtils;
 
 namespace Template.UI;
 
