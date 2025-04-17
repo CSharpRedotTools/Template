@@ -1,4 +1,4 @@
-![github_banner](https://github.com/user-attachments/assets/a30833aa-b196-4c3f-a741-e266eb62dd76)
+![github_banner](https://github.com/user-attachments/assets/bbff58a6-27ca-4f67-8f02-a8cd278fe8ec)
 
 [![GitHub stars](https://img.shields.io/github/stars/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=9b59b6)](https://github.com/ValksGodotTools/Template/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=9b59b6)](https://github.com/ValksGodotTools/Template/network)
@@ -11,34 +11,34 @@
 1. Ensure your [.NET SDK](https://dotnet.microsoft.com/download) is at least `8.0.400`. Check with `dotnet --version`. 
 2. Download and install the [latest Godot C# release](https://godotengine.org/)
 3. Clone with `git clone --recursive https://github.com/CSharpRedotTools/Template`
-4. If you want to setup Template for a specific genre, [continue reading here](https://github.com/ValksGodotTools/Template/wiki/Setting-up-Template-for-a-Specific-Genre)
+4. If you want to setup Template for a specific genre, [continue reading here](https://github.com/CSharpGodotTools/Template/wiki/Setting-up-Template-for-a-Specific-Genre)
 
-If you are not using Windows you may need to get a [Custom ENet build](https://github.com/ValksGodotTools/Template/wiki/Custom-ENet-Builds)
+If you are not using Windows you may need to get a [Custom ENet build](https://github.com/CSharpGodotTools/Template/wiki/Custom-ENet-Builds)
 
-[Link to FAQ](https://github.com/CSharpRedotTools/Template/wiki/FAQ)  
+[Link to FAQ](https://github.com/CSharpGodotTools/Template/wiki/FAQ)  
 
 ![Preview](https://github.com/user-attachments/assets/ee4406d3-d66c-49c4-899a-754767e3c623)
 
 ## Features
 **Hot Features**
-- **[Multiplayer](https://github.com/ValksGodotTools/Template/wiki/Multiplayer)** - Send minimal packet data with ENet.
-- **[In-Game Debugging Tools](https://github.com/ValksGodotTools/Template/wiki/In%E2%80%90Game-Debugging)**
-- **[Menu UI](https://github.com/ValksGodotTools/Template/wiki/Menu-UI)** - Main menu, options and credits.
-- **[Simplified Tweens](https://github.com/ValksGodotTools/Template/wiki/Simplified-Tweens)**
-- **[Service Attribute](https://github.com/ValksGodotTools/Template/wiki/Services)** - Alternative way of managing static members.
-- **[Cat Lips Source Generators](https://github.com/ValksGodotTools/Template/wiki/Source-Generators)**
-- **[Useful Extensions](https://github.com/ValksGodotTools/Template/wiki/Extensions)**
+- **[Multiplayer](https://github.com/CSharpGodotTools/Template/wiki/Multiplayer)** - Send minimal packet data with ENet.
+- **[In-Game Debugging Tools](https://github.com/CSharpGodotTools/Template/wiki/In%E2%80%90Game-Debugging)**
+- **[Menu UI](https://github.com/CSharpGodotTools/Template/wiki/Menu-UI)** - Main menu, options and credits.
+- **[Simplified Tweens](https://github.com/CSharpGodotTools/Template/wiki/Simplified-Tweens)**
+- **[Service Attribute](https://github.com/CSharpGodotTools/Template/wiki/Services)** - Alternative way of managing static members.
+- **[Cat Lips Source Generators](https://github.com/CSharpGodotTools/Template/wiki/Source-Generators)**
+- **[Useful Extensions](https://github.com/CSharpGodotTools/Template/wiki/Extensions)**
 
 **WIP Features**
-- **[3D FPS Scene](https://github.com/ValksGodotTools/Template/wiki/3D-FPS)** - Minimal first-person shooter scene with character controller and pre-made weapon animations.
-- **[2D Top Down Scene](https://github.com/ValksGodotTools/Template/wiki/2D-Top-Down)** - A dungeon scene with enemies, room transitions and working multiplayer.
-- **[Inventory](https://github.com/ValksGodotTools/Template/wiki/Inventory)** - A WIP re-creation of my old inventory system.
-- **[Draggable Nodes](https://github.com/ValksGodotTools/Template/wiki/Draggable-Nodes)** - Make any node draggable.
-- **[State Manager](https://github.com/ValksGodotTools/Template/wiki/State-Manager)** - Implement states using delegates.
-- **[Mod Loader](https://github.com/ValksGodotTools/Template/wiki/Mod-Loader)** - Half-working mod loader.
+- **[3D FPS Scene](https://github.com/CSharpGodotTools/Template/wiki/3D-FPS)** - Minimal first-person shooter scene with character controller and pre-made weapon animations.
+- **[2D Top Down Scene](https://github.com/CSharpGodotTools/Template/wiki/2D-Top-Down)** - A dungeon scene with enemies, room transitions and working multiplayer.
+- **[Inventory](https://github.com/CSharpGodotTools/Template/wiki/Inventory)** - A WIP re-creation of my old inventory system.
+- **[Draggable Nodes](https://github.com/CSharpGodotTools/Template/wiki/Draggable-Nodes)** - Make any node draggable.
+- **[State Manager](https://github.com/CSharpGodotTools/Template/wiki/State-Manager)** - Implement states using delegates.
+- **[Mod Loader](https://github.com/CSharpGodotTools/Template/wiki/Mod-Loader)** - Half-working mod loader.
 
 ## Contributing
 
-Want to contribute? Start by looking [here](https://github.com/ValksGodotTools/Template/wiki/Contributing)!
+Want to contribute? Start by looking [here](https://github.com/CSharpGodotTools/Template/wiki/Contributing)!
 
 Thank you [Brian Shao](https://github.com/cydq) for helping with cross-platform compatibility.
