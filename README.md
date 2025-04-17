@@ -17,6 +17,8 @@ If you are not using Windows you may need to get a [Custom ENet build](https://g
 
 [Link to FAQ](https://github.com/CSharpRedotTools/Template/wiki/FAQ)  
 
+![Preview](https://github.com/user-attachments/assets/ee4406d3-d66c-49c4-899a-754767e3c623)
+
 ## Features
 **Hot Features**
 - **[Multiplayer](https://github.com/ValksGodotTools/Template/wiki/Multiplayer)** - Send minimal packet data with ENet.
