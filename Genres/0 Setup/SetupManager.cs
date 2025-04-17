@@ -122,10 +122,10 @@ public static class SetupManager
         RenameProjectGodotFile(path, name);
     }
     
-    public static void SetupVSCodeTemplates(string redotExe, string gameName)
+    public static void SetupVSCodeTemplates(string godotExe, string gameName)
     {
-        // Normalize the redot.exe path and remove quotes
-        redotExe = redotExe.Trim().Replace("\\", "/").Replace("\"", "");
+        // Normalize the godot.exe path and remove quotes
+        godotExe = godotExe.Trim().Replace("\\", "/").Replace("\"", "");
         
         string path = ProjectSettings.GlobalizePath("res://");
         string fullPath = Path.Combine(path, "Genres", "0 Setup", "VSCode Templates");
@@ -133,12 +133,12 @@ public static class SetupManager
         string tasksFilePath = Path.Combine(fullPath, "tasks.json");
 
         string launchText = File.ReadAllText(launchFilePath);
-        launchText = launchText.Replace("ENGINE_EXE", redotExe);
+        launchText = launchText.Replace("ENGINE_EXE", godotExe);
         string launchVSCodePath = Path.Combine(path, ".vscode", "launch.json");
         File.WriteAllText(launchVSCodePath, launchText);
 
         string tasksText = File.ReadAllText(tasksFilePath);
-        tasksText = tasksText.Replace("ENGINE_EXE", redotExe);
+        tasksText = tasksText.Replace("ENGINE_EXE", godotExe);
         tasksText = tasksText.Replace("Template", gameName);
         string tasksVSCodePath = Path.Combine(path, ".vscode", "tasks.json");
         File.WriteAllText(tasksVSCodePath, tasksText);
@@ -193,7 +193,7 @@ public static class SetupManager
             switch (Path.GetDirectoryName(fullFilePath))
             {
                 case ".godot":
-                case "RedotUtils":
+                case "GodotUtils":
                 case "addons":
                     return;
             }

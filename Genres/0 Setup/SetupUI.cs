@@ -7,7 +7,7 @@ namespace Template.Setup;
 public partial class SetupUI : Node
 {
     [Export] private LineEdit _lineEditGameName;
-    [Export] private LineEdit _lineEditRedotExe;
+    [Export] private LineEdit _lineEditGodotExe;
     [Export] private OptionButton _genreOptionBtn;
     [Export] private PopupPanel _popupPanel;
     [Export] private RichTextLabel _gameNamePreview;
@@ -38,7 +38,7 @@ public partial class SetupUI : Node
 
         SetupManager.RenameProjectFiles(path, gameName);
         SetupManager.RenameAllNamespaces(path, gameName);
-        SetupManager.SetupVSCodeTemplates(_lineEditRedotExe.Text, gameName);
+        SetupManager.SetupVSCodeTemplates(_lineEditGodotExe.Text, gameName);
 
         if (_checkButtonMoveProjectFiles.ButtonPressed)
         {

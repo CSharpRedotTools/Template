@@ -27,7 +27,7 @@ bg_color = Color(0.6, 0, 0.0470588, 1)
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1payf"]
 bg_color = Color(0, 0.6, 0.0784314, 1)
 
-[node name="Setup" type="PanelContainer" node_paths=PackedStringArray("_lineEditGameName", "_lineEditRedotExe", "_genreOptionBtn", "_popupPanel", "_gameNamePreview", "_genreSelectedInfo", "_checkButtonDeleteSetupScene", "_checkButtonDeleteOtherGenres", "_checkButtonMoveProjectFiles")]
+[node name="Setup" type="PanelContainer" node_paths=PackedStringArray("_lineEditGameName", "_lineEditGodotExe", "_genreOptionBtn", "_popupPanel", "_gameNamePreview", "_genreSelectedInfo", "_checkButtonDeleteSetupScene", "_checkButtonDeleteOtherGenres", "_checkButtonMoveProjectFiles")]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -36,7 +36,7 @@ grow_vertical = 2
 theme = SubResource("Theme_rop0o")
 script = ExtResource("1_m5u8t")
 _lineEditGameName = NodePath("CenterContainer/VBoxContainer/HBoxContainer/VBoxContainer2/GameName")
-_lineEditRedotExe = NodePath("CenterContainer/VBoxContainer/VSCode/HBoxContainer/RedotExe")
+_lineEditGodotExe = NodePath("CenterContainer/VBoxContainer/VSCode/HBoxContainer/GodotExe")
 _genreOptionBtn = NodePath("CenterContainer/VBoxContainer/VBoxContainer/Genre")
 _popupPanel = NodePath("PopupPanel")
 _gameNamePreview = NodePath("CenterContainer/VBoxContainer/Tooltip/MarginContainer/NamePreview")
@@ -177,12 +177,12 @@ theme_override_constants/separation = 30
 
 [node name="Label" type="Label" parent="CenterContainer/VBoxContainer/VSCode/HBoxContainer"]
 layout_mode = 2
-text = "Redot Executable Path"
+text = "Godot Executable Path"
 
-[node name="RedotExe" type="LineEdit" parent="CenterContainer/VBoxContainer/VSCode/HBoxContainer"]
+[node name="GodotExe" type="LineEdit" parent="CenterContainer/VBoxContainer/VSCode/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-placeholder_text = "C:/Path/To/Redot.exe"
+placeholder_text = "C:/Path/To/Godot.exe"
 
 [node name="ApplyChanges" type="Button" parent="CenterContainer/VBoxContainer"]
 custom_minimum_size = Vector2(250, 75)
