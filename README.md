@@ -6,6 +6,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=3399FF)](https://github.com/ValksGodotTools/Template/commits/main)
 [![Contributors](https://img.shields.io/github/contributors/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=3399FF)](https://github.com/ValksGodotTools/Template/graphs/contributors)
 [![GitHub watchers](https://img.shields.io/github/watchers/ValksGodotTools/Template?style=flat&labelColor=1a1a1a&color=3399FF)](https://github.com/ValksGodotTools/Template/watchers)
+[![Discord](https://img.shields.io/discord/955956101554266132?label=discord&style=flat&color=3399FF&labelColor=1a1a1a)](https://discord.gg/j8HQZZ76r8)
 
 ## Setup
 1. Ensure your [.NET SDK](https://dotnet.microsoft.com/download) is at least `8.0.400`. Check with `dotnet --version`. 
